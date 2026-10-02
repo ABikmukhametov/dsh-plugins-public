@@ -1,0 +1,15 @@
+{
+  "name": "@abikmukhametov/dsh-locale-ru",
+  "version": "0.1.2",
+  "description": "Russian dictionaries for the native DSH Web language selector",
+  "type": "module",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/ABikmukhametov/dsh-plugins-public.git", "directory": "plugins/locale-ru" },
+  "exports": { ".": "./lib/index.js", "./client": "./lib/client.js", "./package.json": "./package.json" },
+  "files": ["lib", "src", "cordis.patch.yml", "vendor", "examples", "README.md"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" }, "client": { "platform": "web", "inject": ["@deepseek-ai/dsh-client-locale"] } },
+  "peerDependencies": { "@deepseek-ai/cordis": "^4.0.4", "@deepseek-ai/dsh-client-locale": "0.2.0-rc.2" },
+  "peerDependenciesMeta": { "@deepseek-ai/cordis": { "optional": true }, "@deepseek-ai/dsh-client-locale": { "optional": true } },
+  "devDependencies": { "esbuild": "^0.28.1" },
+  "scripts": { "build": "node scripts/build.mjs", "check": "node scripts/check.mjs", "pack": "node scripts/pack.mjs" }
+}

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "incremental": false,
+    "declaration": false,
+    "declarationMap": false,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@deepseek-ai/cordis": ["../../vendor/cordis/lib/types/index.d.ts"],
+      "@deepseek-ai/dsh-api-workspace-files": ["../../packages/api/workspace-files/lib/types/index.d.ts"],
+      "@deepseek-ai/dsh-client-connection": ["../../packages/client/connection/lib/types/index.d.ts"],
+      "@deepseek-ai/dsh-client-connection/src/browser-auth.ts": ["../../packages/client/connection/lib/types/browser-auth.d.ts"],
+      "@deepseek-ai/dsh-client-locale/client": ["../../packages/client/locale/lib/types/client/index.d.ts"],
+      "@deepseek-ai/dsh-client-ui-deliverables/client": ["../../packages/client/ui-deliverables/lib/types/client/index.d.ts"],
+      "@deepseek-ai/dsh-client-ui-primitives": ["../../packages/client/ui-primitives/lib/types/index.d.ts"],
+      "@deepseek-ai/dsh-client-ui-renderer/client": ["../../packages/client/ui-renderer/lib/types/client/index.d.ts"],
+      "@deepseek-ai/dsh-client-ui-slots": ["../../packages/client/ui-slots/lib/types/index.d.ts"],
+      "@deepseek-ai/dsh-fs": ["../../packages/fs/fs/lib/types/index.d.ts"],
+      "@deepseek-ai/dsh-fs-local": ["../../packages/fs/fs-local/lib/types/index.d.ts"],
+      "@deepseek-ai/dsh-sandbox-policy": ["../../packages/sandbox/sandbox-policy/lib/types/index.d.ts"],
+      "@deepseek-ai/dsh-session": ["../../packages/core/session/lib/types/index.d.ts"],
+      "@deepseek-ai/dsh-session-query": ["../../packages/session-query/session-query/lib/types/index.d.ts"],
+      "@deepseek-ai/dsh-tool-present/types": ["../../packages/deliverables/tool-present/lib/types/types.d.ts"],
+      "@deepseek-ai/dsh-workspace-changes/types": ["../../packages/deliverables/workspace-changes/lib/types/types.d.ts"],
+      "@deepseek-ai/schemastery": ["../../vendor/schemastery/lib/types/index.d.ts"],
+      "@testing-library/react": ["../../packages/client/ui-deliverables/node_modules/@testing-library/react/types/index.d.ts"],
+      "react": ["../../packages/client/ui-settings-general/node_modules/@types/react/index.d.ts"],
+      "react/jsx-runtime": ["../../packages/client/ui-settings-general/node_modules/@types/react/jsx-runtime.d.ts"]
+    }
+  },
+  "files": []
+}

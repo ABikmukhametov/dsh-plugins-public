@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/GooDAnDReaDY/dsh-russian-lang",
+  "revision": "bc65c559a510aaf4d41632253b75c767cf2c6944",
+  "file": "lib/locales/core.json",
+  "sha256": "b57e83c7ce4728c90a3ff98a24ea50327d132f7e20d12b2014511fe66e725b56",
+  "license": "LICENSE.txt",
+  "licenseSha256": "dc6f2fbad994189e1e1466c51173363264826fc454f0cfccdafa91a9a41b6365",
+  "dshVersion": "0.2.0-rc.2"
+}

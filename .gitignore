@@ -1,0 +1,17 @@
+node_modules/
+plugins/*/lib/
+plugins/*/artifacts/
+plugins/locale-ru/coverage.json
+*.tsbuildinfo
+plugins/*/tsconfig.catalog.generated.json
+/TODO.md
+/DEV-HISTORY.md
+/.cache/
+/.env
+/.env.*
+/.npmrc
+/.credentials*
+*.pem
+*.key
+*.sqlite*
+*.db

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "incremental": false,
+    "declaration": false,
+    "declarationMap": false,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@deepseek-ai/cordis": ["../../vendor/cordis/lib/types/index.d.ts"],
+      "@deepseek-ai/dsh-client-locale/client": ["../../packages/client/locale/lib/types/client/index.d.ts"],
+      "@deepseek-ai/dsh-client-test-runtime": ["../../packages/test-support/client-runtime/lib/types/index.d.ts"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.mts", "src/**/*.json", "tests/**/*.ts", "vendor/core.json"]
+}

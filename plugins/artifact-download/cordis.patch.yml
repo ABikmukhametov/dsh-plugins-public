@@ -1,0 +1,3 @@
+- insert:
+    - id: artifact-download
+      name: '@abikmukhametov/dsh-artifact-download'
