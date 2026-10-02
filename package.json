@@ -2,7 +2,7 @@
   "name": "dsh-plugins",
   "private": true,
   "type": "module",
-  "description": "Three optional plugins for DeepSeek Harness Web",
+  "description": "Four optional plugins for DeepSeek Harness Web",
   "scripts": {
     "check": "node scripts/check.mjs",
     "build": "node scripts/build.mjs",

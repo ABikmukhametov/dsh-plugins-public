@@ -1,0 +1,5 @@
+- insert:
+    - id: weather-forecast
+      name: '@abikmukhametov/dsh-weather-forecast'
+      config:
+        traceRegistration: true

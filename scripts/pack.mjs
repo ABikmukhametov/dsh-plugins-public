@@ -3,7 +3,7 @@ import { fileURLToPath } from 'node:url'
 import { dshRoot } from './dsh-root.mjs'
 
 dshRoot()
-for (const name of ['locale-ru', 'personal-memory', 'artifact-download']) {
+for (const name of ['locale-ru', 'personal-memory', 'artifact-download', 'weather-forecast']) {
   const script = fileURLToPath(new URL(`../plugins/${name}/scripts/pack.mjs`, import.meta.url))
   const result = spawnSync(process.execPath, [script], { stdio: 'inherit' })
   if (result.error) throw result.error
